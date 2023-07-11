@@ -43,6 +43,7 @@ npm start
 - [Surplus](https://github.com/webcomponents/custom-elements-everywhere/tree/master/libraries/surplus)
 - [Svelte](https://github.com/webcomponents/custom-elements-everywhere/tree/master/libraries/svelte)
 - [Vue](https://github.com/webcomponents/custom-elements-everywhere/tree/master/libraries/vue)
+- [Quarkc](https://github.com/webcomponents/custom-elements-everywhere/tree/master/libraries/quarkc)
 
 ## How do I add a library/framework to the project?
 

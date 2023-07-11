@@ -30,6 +30,7 @@ const libraryMap = {
   lit: "Lit",
   mithril: "Mithril",
   omi: "Omi",
+  quarkc: "Quarkc",
   polymer: "Polymer",
   preact: "Preact",
   react: "React",

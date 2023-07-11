@@ -40,6 +40,7 @@
         "./libraries/lit:build",
         "./libraries/mithril:build",
         "./libraries/omi:build",
+        "./libraries/quarkc:build",
         "./libraries/polymer:build",
         "./libraries/preact:build",
         "./libraries/react:build",
