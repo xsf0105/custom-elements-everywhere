@@ -1,0 +1,48 @@
+{
+  "scripts": {
+    "test": "wireit",
+    "build": "wireit"
+  },
+  "library_repo": "Hellof2e/quarkc",
+  "devDependencies": {
+    "babel-core": "6.26.3",
+    "babel-loader": "9.1.2",
+    "babel-plugin-transform-react-jsx": "6.24.1",
+    "chai": "4.3.7",
+    "cross-env": "7.0.3",
+    "elm": "0.19.1-5",
+    "elm-webpack-loader": "8.0.0",
+    "karma": "6.4.2",
+    "karma-chrome-launcher": "3.2.0",
+    "karma-firefox-launcher": "2.1.2",
+    "karma-sourcemap-loader": "0.4.0",
+    "karma-webpack": "5.0.0",
+    "webpack": "5.86.0"
+  },
+  "dependencies": {
+    "quarkc": "1.0.34"
+  },
+  "wireit": {
+    "test": {
+      "dependencies": [
+        "../..:karma-plugins"
+      ],
+      "files": [
+        ".babelrc",
+        "karma.conf.js",
+        "tests.webpack.js",
+        "src",
+        "meta"
+      ],
+      "output": [
+        "results"
+      ],
+      "command": "cross-env LIBRARY_NAME=quarkc karma start"
+    },
+    "build": {
+      "dependencies": [
+        "test"
+      ]
+    }
+  }
+}
